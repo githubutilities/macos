@@ -1,1 +1,2 @@
-/Users/will/.bash_profile
+#echo "Hello will"
+export PATH=$PATH:~/Developer/utilities
