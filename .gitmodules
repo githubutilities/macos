@@ -1,0 +1,3 @@
+[submodule "sublime2_user_settings"]
+	path = sublime2_user_settings
+	url = https://github.com/githubutilities/sublime2_user_settings.git
