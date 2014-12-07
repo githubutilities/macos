@@ -1,1 +1,1 @@
-for mac os command line
+mac os dotfiles and command line utilities
