@@ -1,5 +1,7 @@
 INSTALL_DIR=~/Developer/utilities/macos
-export PATH=$PATH:$INSTALL_DIR/icdiff:$INSTALL_DIR
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home"
+export PATH=$PATH:$INSTALL_DIR/icdiff:$INSTALL_DIR:$JAVA_HOME/bin
+export HADOOP_OPTS="-Djava.security.krb5.realm=-Djava.security.krb5.kdc="
 # define colors
 C_DEFAULT="\[\033[m\]"
 C_WHITE="\[\033[1m\]"
@@ -37,3 +39,5 @@ alias ll="ls -alh"
 # list a directory SUMMARY in HUMAN readable format
 alias lld="du -sh"
 
+# Load rbenv automatically by adding
+eval "$(rbenv init -)"
